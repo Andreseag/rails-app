@@ -3,6 +3,7 @@ class BooksController < ApplicationController
 
   # GET /books or /books.json
   def index
+    binding.pry
     @books = Book.all
   end
 
